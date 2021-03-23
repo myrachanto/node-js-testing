@@ -1,0 +1,25 @@
+{
+  "name": "primero",
+  "version": "1.0.0",
+  "description": "node api",
+  "main": "server.js",
+  "scripts": {
+    "dev": "backpack",
+    "build": "backpack build",
+    "test": "jest",
+    "start": "nodemon server.js"
+  },
+  "author": "myrachanto",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "backpack-core": "^0.8.4",
+    "bcrypt": "^5.0.1",
+    "express": "^4.17.1",
+    "jest": "^26.6.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.0",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2"
+  }
+}
